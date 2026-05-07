@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Krish Arora - AI/ML Builder, Trading Systems Researcher, Math Student">
+    <title>Krish Arora | AI/ML Engineer & Trading Research</title>
+    <script>
+        (function () {
+            try {
+                const stored = localStorage.getItem('theme-preference');
+                document.documentElement.setAttribute('data-theme', stored || 'light');
+            } catch (error) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-40 transition-all duration-300 glass-effect-subtle" id="nav" style="border-bottom: 1px solid var(--color-border);">
+        <div class="container-premium flex items-center justify-between h-20">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <a href="/" class="nav-logo text-xl font-bold" aria-label="Go to homepage">
+                    Krish Arora
+                </a>
+            </div>
+
+            <!-- Menu -->
+            <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <li><a href="#home" class="hover:opacity-60 transition">Home</a></li>
+                <li><a href="#projects" class="hover:opacity-60 transition">Projects</a></li>
+                <li><a href="/research" class="hover:opacity-60 transition">Research</a></li>
+                <li><a href="/about" class="hover:opacity-60 transition">About</a></li>
+                <li><a href="#contact" class="hover:opacity-60 transition">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-shell pt-32 pb-16 md:pt-40 md:pb-24 border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <div class="grid gap-12 items-center">
+                <!-- Left Column: Text -->
+                <div class="animate-fade-in-up reveal is-visible" data-reveal>
+                    <span class="section-label mb-4">Portfolio / Research / Systems</span>
+                    <h1 class="mb-6">Krish Arora</h1>
+                    <p class="text-lg md:text-xl mb-8 leading-relaxed" style="color: var(--color-text-secondary);">
+                        AI/ML Builder, Trading Systems Researcher, and Math Student
+                    </p>
+                    <p class="text-base md:text-lg mb-8 leading-relaxed max-w-lg">
+                        I build technical projects at the intersection of machine learning, markets, and software. My current work focuses on ML experimentation, trading analytics, and developing a stronger research foundation through mathematics, implementation, and disciplined study.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="button-row">
+                        <a href="#projects" class="btn-primary inline-block text-center">
+                            View Projects
+                        </a>
+                        <a href="/research" class="btn-secondary inline-block text-center">
+                            Read Research Notes
+                        </a>
+                        <a href="https://github.com/krisharora940" target="_blank" rel="noopener" class="btn-secondary inline-block text-center">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="grid md:grid-cols-2 gap-8 mt-20 reveal trust-indicator-grid" data-reveal>
+                <div class="text-center md:text-left card-premium mirror-panel magnetic-element home-insight-card">
+                    <p class="text-sm opacity-60 mb-2">Education</p>
+                    <p class="font-semibold">University of Toronto</p>
+                    <p class="text-sm opacity-60">Mathematical Applications in Economics & Finance</p>
+                </div>
+                <div class="text-center md:text-left card-premium mirror-panel magnetic-element home-insight-card">
+                    <p class="text-sm opacity-60 mb-2">Focus</p>
+                    <p class="font-semibold">ML, AI Safety, and Entrepreneurship</p>
+                    <p class="text-sm opacity-60">Projects & Technical Foundation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section id="projects" class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <span class="section-label mb-4">Selected Work</span>
+            <h2 class="mb-4">Featured Work</h2>
+            <p class="text-lg opacity-60 mb-16 max-w-2xl">
+                A curated selection of projects across trading research, software, and machine learning.
+            </p>
+
+            <div class="grid gap-8">
+                <!-- Trading ML Research Card -->
+                <div class="card-premium magnetic-element reveal" data-reveal>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <div class="flex items-center gap-2 mb-4">
+                                <span class="text-xs font-semibold status-pill">
+                                    Flagship Project
+                                </span>
+                            </div>
+                            <h3 class="mb-4">Trading ML Research System</h3>
+                            <p class="mb-6">
+                                A systematic trading research project combining ML experimentation, performance tracking, and disciplined evaluation of trading hypotheses.
+                            </p>
+                            <div class="metrics-row mb-6 text-sm opacity-70">
+                                <div>
+                                    <p class="opacity-60">Net P/L</p>
+                                    <p class="font-bold text-lg">+147.2%</p>
+                                </div>
+                                <div>
+                                    <p class="opacity-60">WR</p>
+                                    <p class="font-bold text-lg">48.1%</p>
+                                </div>
+                                <div>
+                                    <p class="opacity-60">Profit Factor</p>
+                                    <p class="font-bold text-lg">1.45</p>
+                                </div>
+                            </div>
+                            <div class="button-row">
+                                <a href="/projects/trading-ml.html" class="btn-primary">
+                                    View Case Study
+                                </a>
+                                <a href="https://github.com/krisharora940/trading_ml_v3" target="_blank" rel="noopener" class="btn-secondary">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="chart-spacer overflow-hidden rounded-2xl border equity-chart-shell" style="border-color: #d1d5db; min-height: 300px;">
+                            <div id="equityChartFeatured" class="equity-chart-canvas" aria-label="Trading equity curve chart"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AuthorCheck Card -->
+                <div class="card-premium magnetic-element reveal" data-reveal>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <div class="flex items-center gap-2 mb-4">
+                                <span class="text-xs font-semibold status-pill">
+                                    Software Product
+                                </span>
+                            </div>
+                            <h3 class="mb-4">AuthorCheck</h3>
+                            <p class="mb-6">
+                                A software project focused on content and authorship checking, presented as a product case study with architecture, workflow, and technical decisions.
+                            </p>
+                            <p class="text-sm opacity-60 mb-6">
+                                <span class="font-semibold">Stack:</span> Python, FastAPI, React
+                            </p>
+                            <div class="button-row">
+                                <a href="/projects/authorcheck" class="btn-primary">
+                                    View Case Study
+                                </a>
+                                <a href="https://github.com" target="_blank" class="btn-secondary">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mirror-panel overflow-hidden" style="background-color: var(--color-bg); border: 1px solid var(--color-border); border-radius: 1rem; min-height: 300px;">
+                            <img src="images/authorcheck-screenshot.png" alt="AuthorCheck product screenshot" class="w-full h-full object-cover object-top" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML Learning Lab Card -->
+                <div class="card-premium magnetic-element reveal" data-reveal>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <div class="flex items-center gap-2 mb-4">
+                                <span class="text-xs font-semibold status-pill">
+                                    Ongoing
+                                </span>
+                            </div>
+                            <h3 class="mb-4">ML Learning Lab</h3>
+                            <p class="mb-6">
+                                A running collection of smaller technical machine learning projects, experiments, and implementation exercises as I build toward deeper research work.
+                            </p>
+                            <p class="text-sm opacity-60 mb-6">
+                                Covers fundamentals, neural networks, optimization, interpretability, and experiments.
+                            </p>
+                            <div class="button-row">
+                                <a href="/projects/ml-lab" class="btn-primary">
+                                    Explore Lab
+                                </a>
+                                <a href="https://github.com" target="_blank" class="btn-secondary">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center mirror-panel grid-overlay" style="background-color: var(--color-bg); border: 1px solid var(--color-border); border-radius: 1rem; min-height: 300px;">
+                            <p class="text-sm opacity-50 text-center">Project Grid Preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Background Section -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <span class="section-label mb-4">Background</span>
+            <h2 class="mb-4">Background</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 background-layout">
+                <div>
+                    <p class="text-lg leading-relaxed mb-8">
+                        I am a University of Toronto student studying Mathematical Applications in Economics & Finance. My interests sit at the intersection of machine learning, markets, and rigorous technical work. I am especially interested in building systems that combine quantitative reasoning, careful experimentation, and clear decision-making.
+                    </p>
+
+                    <ul class="stack-list text-sm">
+                        <li>
+                            <span class="text-lg">→</span>
+                            <span>Studying mathematics with interest in AI/ML and quantitative systems</span>
+                        </li>
+                        <li>
+                            <span class="text-lg">→</span>
+                            <span>Building technical fluency through implementation-heavy learning</span>
+                        </li>
+                        <li>
+                            <span class="text-lg">→</span>
+                            <span>Experience across product research, software, and market-oriented tools</span>
+                        </li>
+                        <li>
+                            <span class="text-lg">→</span>
+                            <span>Currently developing a stronger research foundation through projects, papers, and structured study</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-grid">
+                    <!-- Experience Cards -->
+                    <div class="card-premium reveal" data-reveal>
+                        <p class="text-xs opacity-60 mb-2">Current</p>
+                        <h4>Freelancer</h4>
+                        <p class="text-sm opacity-70 mt-2">Website development</p>
+                    </div>
+
+                    <div class="card-premium reveal" data-reveal>
+                        <p class="text-xs opacity-60 mb-2">Most Recent Role</p>
+                        <h4>TradeZella</h4>
+                        <p class="text-sm opacity-70 mt-2">Partnerships and product research</p>
+                    </div>
+
+                    <div class="card-premium reveal" data-reveal>
+                        <p class="text-xs opacity-60 mb-2">Previous</p>
+                        <h4>Trinity Solar</h4>
+                        <p class="text-sm opacity-70 mt-2">Lead generation and team lead</p>
+                    </div>
+
+                    <div class="card-premium reveal" data-reveal>
+                        <p class="text-xs opacity-60 mb-2">Earlier</p>
+                        <h4>Bumper Investing</h4>
+                        <p class="text-sm opacity-70 mt-2">Software, product, and marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Reading -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <span class="section-label mb-4">Reading Queue</span>
+            <h2 class="mb-4">Research and Reading</h2>
+            <p class="text-lg opacity-60 mb-12 max-w-2xl">
+                I am building my technical foundation through implementation-heavy study. This section will track ML-related reading, notes, and papers over time.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Column 1: Currently Reading -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Currently Reading</h3>
+                    <div class="card-premium reveal" data-reveal>
+                        <p class="text-sm opacity-60 mb-2">Textbook</p>
+                        <h4 class="mb-2">Dive into Deep Learning (D2L)</h4>
+                        <div class="mt-4 reading-progress">
+                            <p class="text-xs opacity-60 mb-1">Progress</p>
+                            <div class="progress-track glass-progress" aria-label="Reading progress" style="--progress: 9.09%;">
+                                <div class="progress-fill"></div>
+                                <div class="progress-sheen" aria-hidden="true"></div>
+                            </div>
+                            <p class="text-xs opacity-60 mt-1">9.1%</p>
+                            <p class="text-xs opacity-60 mt-1">Chapter 2 / 22</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Papers and Notes -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Papers and Notes</h3>
+                    <div class="card-premium text-center py-12 reveal" data-reveal>
+                        <p class="text-sm opacity-60 mb-2">Empty state</p>
+                        <p class="text-sm">Papers, summaries, and technical notes will be added here as this body of work grows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <span class="section-label mb-4">Toolbox</span>
+            <h2 class="mb-16">Tools and Technical Areas</h2>
+
+            <div class="skills-columns">
+                <!-- Programming -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Programming</h3>
+                    <ul class="space-y-3">
+                        <li class="text-base opacity-70">Python</li>
+                        <li class="text-base opacity-70">JavaScript</li>
+                        <li class="text-base opacity-70">HTML/CSS</li>
+                        <li class="text-base opacity-70">SQL</li>
+                        <li class="text-base opacity-70">Ruby</li>
+                        <li class="text-base opacity-70">Dart</li>
+                    </ul>
+                </div>
+
+                <!-- Tools -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Technical Tools</h3>
+                    <ul class="space-y-3">
+                        <li class="text-base opacity-70">PyTorch</li>
+                        <li class="text-base opacity-70">Git / GitHub</li>
+                        <li class="text-base opacity-70">VS Code</li>
+                        <li class="text-base opacity-70">Figma</li>
+                        <li class="text-base opacity-70">Flutter</li>
+                        <li class="text-base opacity-70">Bloomberg Terminal</li>
+                    </ul>
+                </div>
+
+                <!-- Focus Areas -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Focus Areas</h3>
+                    <ul class="space-y-3">
+                        <li class="text-base opacity-70">Machine learning fundamentals</li>
+                        <li class="text-base opacity-70">Trading analytics</li>
+                        <li class="text-base opacity-70">Quantitative experimentation</li>
+                        <li class="text-base opacity-70">Product research</li>
+                        <li class="text-base opacity-70">Software prototyping</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <section id="contact" class="py-16 md:py-24">
+        <div class="container-premium text-center">
+            <span class="section-label mb-4 justify-center">Contact</span>
+            <h2 class="mb-12">Let's Connect</h2>
+
+            <div class="button-row justify-center mb-16">
+                <a href="mailto:arorakrish940@gmail.com" class="btn-primary">
+                    Email Me
+                </a>
+                <a href="https://github.com/krisharora940" target="_blank" rel="noopener" class="btn-secondary">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/krish-arora-847b7a407" target="_blank" rel="noopener" class="btn-secondary">
+                    LinkedIn
+                </a>
+            </div>
+
+            <div class="border-t" style="border-color: var(--color-border); padding-top: 2rem;">
+                <p class="text-sm opacity-60">
+                    © 2025 Krish Arora. Toronto / NJ.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+        <script>
+        /**
+         * Scroll Progress and Navigation Effects
+         */
+        function updateScrollProgress() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+
+            const progressBar = document.getElementById('scrollProgress');
+            if (progressBar) {
+                progressBar.style.width = scrollPercent + '%';
+            }
+
+            // Add glass effect to nav on scroll
+            const nav = document.getElementById('nav');
+            if (nav) {
+                if (scrollTop > 50) {
+                    nav.classList.add('glass-effect-subtle');
+                    nav.style.borderBottom = '1px solid var(--color-border)';
+                } else {
+                    nav.classList.remove('glass-effect-subtle');
+                    nav.style.borderBottom = 'none';
+                }
+            }
+        }
+
+        window.addEventListener('scroll', updateScrollProgress);
+
+        function parseTradesCsv(csvText) {
+            const lines = csvText.replace(/^\uFEFF/, '').trim().split(/\r?\n/);
+            if (lines.length < 2) return [];
+
+            const headers = lines[0].split(',').map((h) => h.replace(/\uFEFF/g, '').trim());
+            const dateIndex = headers.indexOf('Open Date');
+            const pnlIndex = headers.indexOf('Net P&L');
+            if (dateIndex === -1 || pnlIndex === -1) return [];
+
+            const points = [];
+            for (let i = 1; i < lines.length; i += 1) {
+                const cols = lines[i].split(',');
+                const date = (cols[dateIndex] || '').trim();
+                const pnl = Number((cols[pnlIndex] || '').trim());
+                if (!date || Number.isNaN(pnl)) continue;
+                points.push({ date, pnl });
+            }
+            return points;
+        }
+
+        function buildDailyCurve(points) {
+            const grouped = new Map();
+            for (const point of points) {
+                if (!grouped.has(point.date)) grouped.set(point.date, []);
+                grouped.get(point.date).push(point.pnl);
+            }
+
+            const daily = [];
+            let cumulativePnl = 0;
+            const dates = Array.from(grouped.keys()).sort();
+            for (const date of dates) {
+                const pnls = grouped.get(date);
+                for (const pnl of pnls) {
+                    cumulativePnl += pnl;
+                }
+                // User-defined normalization: 100,000 net P&L == 100%
+                daily.push({ x: date, y: (cumulativePnl / 100000) * 100 });
+            }
+            return daily;
+        }
+
+        function renderEquityChart(containerId, dailyPoints) {
+            const container = document.getElementById(containerId);
+            if (!container || dailyPoints.length < 2) return;
+
+            const safePoints = dailyPoints
+                .map((p) => ({ x: p.x, y: Number(p.y) }))
+                .filter((p) => Number.isFinite(p.y));
+            if (safePoints.length < 2) {
+                container.innerHTML = '<div class="equity-empty">Chart data unavailable.</div>';
+                return;
+            }
+
+            const width = container.clientWidth || 900;
+            const height = Math.max(container.clientHeight || 0, 320);
+            const padding = { top: 18, right: 18, bottom: 34, left: 40 };
+            const chartWidth = width - padding.left - padding.right;
+            const chartHeight = height - padding.top - padding.bottom;
+
+            const values = safePoints.map((p) => p.y);
+            const minY = Math.min(...values);
+            const maxY = Math.max(...values);
+            const rangeY = Number.isFinite(maxY - minY) ? Math.max(maxY - minY, 1) : 1;
+
+            const xAt = (i) => padding.left + (i / (safePoints.length - 1)) * chartWidth;
+            const yAt = (value) => padding.top + (1 - (value - minY) / rangeY) * chartHeight;
+
+            const linePath = safePoints
+                .map((point, i) => `${i === 0 ? 'M' : 'L'} ${xAt(i).toFixed(2)} ${yAt(point.y).toFixed(2)}`)
+                .join(' ');
+
+            const areaPath = `${linePath} L ${xAt(safePoints.length - 1).toFixed(2)} ${(padding.top + chartHeight).toFixed(2)} L ${xAt(0).toFixed(2)} ${(padding.top + chartHeight).toFixed(2)} Z`;
+
+            const yTicks = 5;
+            const grid = [];
+            const yLabels = [];
+            for (let i = 0; i <= yTicks; i += 1) {
+                const y = padding.top + (i / yTicks) * chartHeight;
+                const value = (maxY - (i / yTicks) * rangeY).toFixed(0);
+                grid.push(`<line x1="${padding.left}" y1="${y.toFixed(2)}" x2="${(padding.left + chartWidth).toFixed(2)}" y2="${y.toFixed(2)}" class="equity-grid-line" />`);
+                yLabels.push(`<text x="${(padding.left - 8).toFixed(2)}" y="${(y + 4).toFixed(2)}" text-anchor="end" class="equity-y-label">${value}%</text>`);
+            }
+
+            const labels = [];
+            const labelCount = 5;
+            for (let i = 0; i <= labelCount; i += 1) {
+                const idx = Math.floor((i / labelCount) * (safePoints.length - 1));
+                const x = xAt(idx);
+                labels.push(`<text x="${x.toFixed(2)}" y="${(height - 10).toFixed(2)}" text-anchor="middle" class="equity-x-label">${safePoints[idx].x}</text>`);
+            }
+
+            const finalValue = safePoints[safePoints.length - 1].y.toFixed(1);
+            const maxValue = Math.max(...values).toFixed(1);
+
+            container.innerHTML = `
+                <svg viewBox="0 0 ${width} ${height}" class="equity-svg" role="img" aria-label="Equity curve generated from CSV trade data">
+                    <defs>
+                        <clipPath id="${containerId}Clip">
+                            <rect x="0" y="0" width="${width}" height="${height}" rx="14" ry="14"></rect>
+                        </clipPath>
+                        <linearGradient id="${containerId}AreaFill" x1="0" x2="0" y1="0" y2="1">
+                            <stop offset="0%" stop-color="rgba(250, 204, 21, 0.30)" />
+                            <stop offset="100%" stop-color="rgba(250, 204, 21, 0.02)" />
+                        </linearGradient>
+                    </defs>
+                    <g clip-path="url(#${containerId}Clip)">
+                        <rect x="0" y="0" width="${width}" height="${height}" class="equity-bg" rx="14" ry="14"></rect>
+                        ${grid.join('')}
+                        ${yLabels.join('')}
+                        <path d="${areaPath}" fill="url(#${containerId}AreaFill)"></path>
+                        <path d="${linePath}" class="equity-line"></path>
+                        ${labels.join('')}
+                        <text x="${padding.left}" y="${padding.top - 4}" class="equity-title">Walk Forward OOS P&L Curve</text>
+                        <text x="${(padding.left + chartWidth).toFixed(2)}" y="${padding.top - 4}" text-anchor="end" class="equity-meta">Final ${finalValue}% · Peak ${maxValue}%</text>
+                    </g>
+                </svg>
+            `;
+        }
+
+        async function initCsvCharts() {
+            try {
+                let response = await fetch('/data/trades_20260505114701.csv');
+                if (!response.ok) {
+                    response = await fetch('data/trades_20260505114701.csv');
+                }
+                if (!response.ok) return;
+                const csvText = await response.text();
+                const points = parseTradesCsv(csvText);
+                const daily = buildDailyCurve(points);
+                if (daily.length < 2) {
+                    return;
+                }
+                renderEquityChart('equityChartFeatured', daily);
+            } catch (error) {
+                // Intentionally silent: chart stays empty if CSV is unavailable.
+            }
+        }
+
+        /**
+         * Reveal elements as they enter the viewport
+         */
+        const revealTargets = document.querySelectorAll('[data-reveal]');
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            revealTargets.forEach((target) => observer.observe(target));
+        } else {
+            revealTargets.forEach((target) => target.classList.add('is-visible'));
+        }
+
+        /**
+         * Smooth scroll for anchor links
+         */
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        /**
+         * Initialize on page load
+         */
+        window.addEventListener('load', () => {
+            updateScrollProgress();
+            initCsvCharts();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research, Reading & Technical Notes - Krish Arora">
+    <title>Research | Krish Arora</title>
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-40 transition-all duration-300" id="nav" style="background-color: var(--color-bg);">
+        <div class="container-premium flex items-center justify-between h-20">
+            <div class="flex-shrink-0"><a href="/" class="text-xl font-bold">Krish Arora</a></div>
+            <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <li><a href="/" class="hover:opacity-60 transition">Home</a></li>
+                <li><a href="/#projects" class="hover:opacity-60 transition">Projects</a></li>
+                <li><a href="/pages/research" class="hover:opacity-60 transition">Research</a></li>
+                <li><a href="/pages/about" class="hover:opacity-60 transition">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h1 class="mb-6">Research and Reading</h1>
+            <p class="text-lg md:text-xl max-w-2xl leading-relaxed" style="color: var(--color-text-secondary);">
+                Building my technical foundation through implementation-heavy study. This page tracks ML-related reading, notes, papers, and experiments over time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Currently Reading -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Currently Reading</h2>
+
+            <div class="card-premium mb-8">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <p class="text-xs opacity-60 mb-1">Textbook</p>
+                        <h3 class="mb-2">Dive into Deep Learning (D2L)</h3>
+                        <p class="opacity-70">An interactive, open-source deep learning textbook with code, math, and discussions.</p>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-xs opacity-60 mb-1">Status</p>
+                        <p class="font-semibold">In Progress</p>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <p class="text-xs opacity-60 mb-2">Progress: Chapter 8 of 18 (45%)</p>
+                    <div class="w-full h-2 rounded-full" style="background-color: var(--color-bg-secondary); border: 1px solid var(--color-border);">
+                        <div class="h-full rounded-full" style="width: 45%; background-color: var(--color-accent);"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-2 text-sm opacity-70">
+                    <p><strong>Completed Chapters:</strong></p>
+                    <ul class="space-y-1">
+                        <li>• Chapter 1-7: Preliminaries & Deep Networks Basics</li>
+                        <li>• Focus: Foundational concepts, backprop, optimization</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card-premium">
+                    <h4 class="mb-4">Key Takeaways So Far</h4>
+                    <ul class="text-sm opacity-70 space-y-2">
+                        <li>• Deep understanding of neural network mechanics</li>
+                        <li>• Gradient descent and optimization algorithms</li>
+                        <li>• PyTorch implementation patterns</li>
+                        <li>• Hands-on coding for every concept</li>
+                    </ul>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-4">Next Chapters</h4>
+                    <ul class="text-sm opacity-70 space-y-2">
+                        <li>• Convolutional Neural Networks</li>
+                        <li>• Recurrent Neural Networks</li>
+                        <li>• Attention Mechanisms</li>
+                        <li>• Advanced architectures</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papers Read -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Papers and Technical Notes</h2>
+
+            <div class="card-premium text-center py-16">
+                <p class="text-lg font-semibold mb-2">Empty State</p>
+                <p class="opacity-60">
+                    Papers, summaries, and technical notes will be added here as this body of work grows. This will include arXiv papers, conference papers, and detailed technical analyses.
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <h3 class="mb-6">Areas of Interest</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="card-premium">
+                        <p class="font-semibold mb-2">Machine Learning</p>
+                        <p class="text-sm opacity-70">Deep learning, neural networks, optimization, interpretability</p>
+                    </div>
+                    <div class="card-premium">
+                        <p class="font-semibold mb-2">Quantitative Finance</p>
+                        <p class="text-sm opacity-70">Asset pricing, algorithmic trading, market microstructure</p>
+                    </div>
+                    <div class="card-premium">
+                        <p class="font-semibold mb-2">Time Series</p>
+                        <p class="text-sm opacity-70">Forecasting, anomaly detection, sequence modeling</p>
+                    </div>
+                    <div class="card-premium">
+                        <p class="font-semibold mb-2">Statistics</p>
+                        <p class="text-sm opacity-70">Causal inference, experimental design, Bayesian methods</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ML Content Library -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">ML Content & Experiments</h2>
+
+            <p class="opacity-70 mb-12 max-w-2xl">
+                A growing library of technical explorations, experiments, and implementation notes. This tracks learning progress through concrete work.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card-premium">
+                    <h4 class="mb-2">Projects</h4>
+                    <p class="text-sm opacity-70">Hands-on ML implementations from fundamentals to advanced topics.</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-2">Paper Summaries</h4>
+                    <p class="text-sm opacity-70">Detailed notes on important papers with code implementations.</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-2">Experiments</h4>
+                    <p class="text-sm opacity-70">Controlled experiments testing specific ML concepts and techniques.</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-2">Implementation Notes</h4>
+                    <p class="text-sm opacity-70">Technical deep-dives on specific algorithms and architectures.</p>
+                </div>
+            </div>
+
+            <div class="card-premium mt-12">
+                <p class="text-center opacity-60">
+                    More content coming as I progress through structured study and projects. Check back soon or follow the GitHub repo for real-time updates.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Links -->
+    <section class="py-16 md:py-24">
+        <div class="container-premium">
+            <h2 class="mb-12">Resources</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-premium magnetic-element">
+                    <h3 class="mb-4">Dive into Deep Learning</h3>
+                    <p class="text-sm opacity-70 mb-6">Official textbook with interactive code.</p>
+                    <a href="https://d2l.ai/" target="_blank" class="btn-primary">Visit</a>
+                </div>
+
+                <div class="card-premium magnetic-element">
+                    <h3 class="mb-4">My GitHub</h3>
+                    <p class="text-sm opacity-70 mb-6">All code, notebooks, and experiments.</p>
+                    <a href="https://github.com/krisharora" target="_blank" class="btn-primary">View</a>
+                </div>
+
+                <div class="card-premium magnetic-element">
+                    <h3 class="mb-4">Back Home</h3>
+                    <p class="text-sm opacity-70 mb-6">Return to the main portfolio.</p>
+                    <a href="/" class="btn-secondary">Go</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t text-center text-sm opacity-60 py-8" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <p>© 2025 Krish Arora. Building toward deeper technical work.</p>
+        </div>
+    </footer>
+
+    <script>
+        function updateScrollProgress() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            const progressBar = document.getElementById('scrollProgress');
+            if (progressBar) progressBar.style.width = scrollPercent + '%';
+            const nav = document.getElementById('nav');
+            if (nav) {
+                if (scrollTop > 50) {
+                    nav.classList.add('glass-effect-subtle');
+                    nav.style.borderBottom = '1px solid var(--color-border)';
+                } else {
+                    nav.classList.remove('glass-effect-subtle');
+                    nav.style.borderBottom = 'none';
+                }
+            }
+        }
+        window.addEventListener('scroll', updateScrollProgress);
+        window.addEventListener('load', () => updateScrollProgress());
+    </script>
+</body>
+</html>

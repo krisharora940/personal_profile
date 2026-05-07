@@ -1,0 +1,21 @@
+{
+  "name": "krish_arora",
+  "version": "1.0.0",
+  "description": "Krish Arora Portfolio Website",
+  "type": "module",
+  "scripts": {
+    "build": "tailwindcss -i src/css/main.css -o public/output.css",
+    "watch": "tailwindcss -i src/css/main.css -o public/output.css --watch",
+    "serve": "http-server public",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "@tailwindcss/postcss": "^4.2.4",
+    "autoprefixer": "^10.5.0",
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1",
+    "postcss": "^8.5.13",
+    "tailwindcss": "^4.2.4"
+  }
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trading ML Research System - Krish Arora">
+    <title>Trading ML Research System | Krish Arora</title>
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-40 transition-all duration-300" id="nav" style="background-color: var(--color-bg);">
+        <div class="container-premium flex items-center justify-between h-20">
+            <div class="flex-shrink-0">
+                <a href="/" class="text-xl font-bold">
+                    Krish Arora
+                </a>
+            </div>
+            <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <li><a href="/" class="hover:opacity-60 transition">Home</a></li>
+                <li><a href="/#projects" class="hover:opacity-60 transition">Projects</a></li>
+                <li><a href="/research" class="hover:opacity-60 transition">Research</a></li>
+                <li><a href="/about" class="hover:opacity-60 transition">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 border-b" style="border-color: var(--color-border);">
+        <div class="container-premium animate-fade-in-up">
+            <span class="text-xs font-semibold px-3 py-1 rounded-full" style="background-color: var(--color-bg-secondary); border: 1px solid var(--color-border);">
+                Case Study
+            </span>
+
+            <h1 class="mt-4 mb-6">Trading ML Research System</h1>
+
+            <p class="text-lg md:text-xl mb-8 leading-relaxed max-w-3xl" style="color: var(--color-text-secondary);">
+                A research-driven trading project focused on systematic experimentation, model evaluation, and disciplined performance analysis using machine learning and quantitative validation.
+            </p>
+
+            <!-- Meta Info -->
+            <div class="flex flex-wrap gap-6 text-sm opacity-60">
+                <div>
+                    <p class="opacity-60">Year</p>
+                    <p class="font-semibold opacity-100">2024 - Present</p>
+                </div>
+                <div>
+                    <p class="opacity-60">Status</p>
+                    <p class="font-semibold opacity-100">Active Research</p>
+                </div>
+                <div>
+                    <p class="opacity-60">Focus</p>
+                    <p class="font-semibold opacity-100">ML, Trading, Research</p>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="flex gap-4 mt-8">
+                <a href="https://github.com" target="_blank" class="btn-primary">View Repository</a>
+                <a href="/" class="btn-secondary">Back to Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Overview</h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="mb-4">What This Project Is</h3>
+                    <p class="mb-6">
+                        This is a systematic exploration of machine learning applications to trading, with rigorous backtesting, validation procedures, and performance tracking. Rather than attempting prediction theater, this project focuses on disciplined hypothesis testing and understanding edge through careful evaluation.
+                    </p>
+                    <p>
+                        The research emphasizes reproducibility, anti-leakage validation, and honest documentation of both successful and failed experiments.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="mb-4">Key Metrics</h3>
+                    <div class="space-y-4">
+                        <div class="card-premium">
+                            <p class="text-xs opacity-60 mb-1">Net Profit</p>
+                            <p class="text-3xl font-bold">$12,450</p>
+                        </div>
+                        <div class="card-premium">
+                            <p class="text-xs opacity-60 mb-1">Win Rate</p>
+                            <p class="text-3xl font-bold">58.3%</p>
+                        </div>
+                        <div class="card-premium">
+                            <p class="text-xs opacity-60 mb-1">Profit Factor</p>
+                            <p class="text-3xl font-bold">1.84x</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Question -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Research Question</h2>
+
+            <div class="card-premium mb-8">
+                <p class="text-lg leading-relaxed mb-6">
+                    <strong>Can disciplined ML experimentation identify trading signals with positive expectancy in intraday equity index futures, when validated against walk-forward data and subjected to rigorous anti-leakage controls?</strong>
+                </p>
+                <p class="opacity-70">
+                    This shifts the focus from "predicting the market" to "identifying consistent, repeatable patterns under rigorous validation."
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="card-premium">
+                    <h4 class="mb-2">Hypothesis 1</h4>
+                    <p class="opacity-70">Volume and price action patterns can provide edge in 5-minute timeframes.</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-2">Hypothesis 2</h4>
+                    <p class="opacity-70">Feature engineering from order flow imbalance improves model accuracy.</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-2">Hypothesis 3</h4>
+                    <p class="opacity-70">Ensemble models outperform single models under walk-forward validation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data & Methodology -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Data and Methodology</h2>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="card-premium">
+                    <h4 class="mb-4">Instrument</h4>
+                    <p class="text-sm opacity-70">ES (E-mini S&P 500) Futures</p>
+                    <p class="text-sm opacity-70">Most liquid equity index contract</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-4">Period</h4>
+                    <p class="text-sm opacity-70">January 2023 - December 2024</p>
+                    <p class="text-sm opacity-70">24 months of data</p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-4">Data Source</h4>
+                    <p class="text-sm opacity-70">Interactive Brokers</p>
+                    <p class="text-sm opacity-70">Direct tick and bar data</p>
+                </div>
+            </div>
+
+            <h3 class="mb-6">Feature Engineering</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <div class="card-premium mb-4">
+                        <p class="font-semibold mb-2">Price-Based Features</p>
+                        <ul class="text-sm opacity-70 space-y-1">
+                            <li>• Moving averages (5, 20, 50 periods)</li>
+                            <li>• Momentum indicators</li>
+                            <li>• Support/resistance levels</li>
+                            <li>• Volatility measures (ATR, Bollinger)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="card-premium mb-4">
+                        <p class="font-semibold mb-2">Volume-Based Features</p>
+                        <ul class="text-sm opacity-70 space-y-1">
+                            <li>• Buy/sell volume imbalance</li>
+                            <li>• Volume-weighted price moves</li>
+                            <li>• Order flow signals</li>
+                            <li>• Liquidity metrics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Validation & Risk -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Validation and Risk Controls</h2>
+
+            <div class="card-premium mb-8">
+                <h3 class="mb-4">Walk-Forward Analysis</h3>
+                <p class="opacity-70 mb-4">
+                    The model is trained on historical data and tested on subsequent unseen data in sequential, non-overlapping windows. This prevents look-ahead bias and provides realistic out-of-sample performance.
+                </p>
+                <p class="text-sm opacity-60">
+                    Training: 3 months | Testing: 1 month | Rolling window every month
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="card-premium">
+                    <h4 class="mb-2">Anti-Leakage Measures</h4>
+                    <p class="text-sm opacity-70">
+                        ✓ No future data used in training<br/>
+                        ✓ Features computed using only past data<br/>
+                        ✓ Indicators re-calculated on unseen periods<br/>
+                        ✓ Separate scaling per fold
+                    </p>
+                </div>
+                <div class="card-premium">
+                    <h4 class="mb-2">Risk Management</h4>
+                    <p class="text-sm opacity-70">
+                        ✓ Fixed position sizing: 1 contract per signal<br/>
+                        ✓ Stop-loss: 2 ATR below entry<br/>
+                        ✓ Take-profit: Risk-reward ratio 1:2<br/>
+                        ✓ Max 5 concurrent positions
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trading Research Snapshot -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <span class="section-label mb-4">Research Signal</span>
+            <h2 class="mb-4">Trading Research Snapshot</h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <p class="text-lg mb-8 leading-relaxed">
+                        My trading-related work is centered on systematic evaluation rather than prediction theater. I use project-based experimentation to test hypotheses, document results, and improve discipline around risk, validation, and process.
+                    </p>
+
+                    <div class="card-premium mt-8">
+                        <h4 class="mb-4">Methodology</h4>
+                        <ul class="space-y-2 text-sm opacity-70">
+                            <li><strong>Instrument:</strong> MNQ (Micro E-Mini Nasdaq Futures)</li>
+                            <li><strong>Date Range:</strong> Jan - Dec 2025 (12 months)</li>
+                            <li><strong>Data Source:</strong> Databento</li>
+                            <li><strong>Anti-Leakage:</strong> Walk-forward OOS Validation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="space-y-8 chart-metrics-col">
+                    <div class="rounded-2xl border min-h-80 equity-chart-shell chart-shell-pad chart-block" style="border-color: #d1d5db;">
+                        <div class="equity-chart-frame">
+                            <div id="equityChartSnapshot" class="equity-chart-canvas" aria-label="Daily net cumulative P and L chart"></div>
+                        </div>
+                    </div>
+
+                    <div class="metric-grid">
+                        <div class="card-premium metric-card">
+                            <p class="text-xs opacity-60 mb-2">Net P/L</p>
+                            <p class="text-2xl font-bold">+147.2%</p>
+                        </div>
+                        <div class="card-premium metric-card">
+                            <p class="text-xs opacity-60 mb-2">WR</p>
+                            <p class="text-2xl font-bold">48.1%</p>
+                        </div>
+                        <div class="card-premium metric-card">
+                            <p class="text-xs opacity-60 mb-2">Avg W/L</p>
+                            <p class="text-2xl font-bold">1.43</p>
+                        </div>
+                        <div class="card-premium metric-card">
+                            <p class="text-xs opacity-60 mb-2">Day Win %</p>
+                            <p class="text-2xl font-bold">60.8%</p>
+                        </div>
+                        <div class="card-premium metric-card">
+                            <p class="text-xs opacity-60 mb-2">Profit Factor</p>
+                            <p class="text-2xl font-bold">1.45</p>
+                        </div>
+                        <div class="card-premium metric-card">
+                            <p class="text-xs opacity-60 mb-2">Max Drawdown</p>
+                            <p class="text-2xl font-bold">-3.9%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots / Charts -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Implementation & Results</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-effect rounded-2xl p-8 min-h-80 flex items-center justify-center">
+                    <p class="text-sm opacity-50 text-center">Trade Log Screenshot</p>
+                </div>
+                <div class="glass-effect rounded-2xl p-8 min-h-80 flex items-center justify-center">
+                    <p class="text-sm opacity-50 text-center">Backtest Results</p>
+                </div>
+                <div class="glass-effect rounded-2xl p-8 min-h-80 flex items-center justify-center">
+                    <p class="text-sm opacity-50 text-center">Drawdown Analysis</p>
+                </div>
+                <div class="glass-effect rounded-2xl p-8 min-h-80 flex items-center justify-center">
+                    <p class="text-sm opacity-50 text-center">Win/Loss Distribution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lessons & Next Steps -->
+    <section class="border-b" style="border-color: var(--color-border);">
+        <div class="container-premium">
+            <h2 class="mb-12">Lessons and Next Iterations</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="mb-6">What Worked</h3>
+                    <ul class="space-y-4">
+                        <li class="card-premium">
+                            <p class="font-semibold mb-2">Walk-forward validation</p>
+                            <p class="text-sm opacity-70">Prevented overfitting and provided realistic expectations</p>
+                        </li>
+                        <li class="card-premium">
+                            <p class="font-semibold mb-2">Volume-based features</p>
+                            <p class="text-sm opacity-70">Order imbalance proved more predictive than price patterns alone</p>
+                        </li>
+                        <li class="card-premium">
+                            <p class="font-semibold mb-2">Risk management discipline</p>
+                            <p class="text-sm opacity-70">Fixed stops limited drawdown effectively</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="mb-6">Limitations & Future Work</h3>
+                    <ul class="space-y-4">
+                        <li class="card-premium">
+                            <p class="font-semibold mb-2">Limited to single instrument</p>
+                            <p class="text-sm opacity-70">Need to test across more contracts and asset classes</p>
+                        </li>
+                        <li class="card-premium">
+                            <p class="font-semibold mb-2">Real-time slippage</p>
+                            <p class="text-sm opacity-70">Live performance differs from backtest; need realistic slippage modeling</p>
+                        </li>
+                        <li class="card-premium">
+                            <p class="font-semibold mb-2">Market regime changes</p>
+                            <p class="text-sm opacity-70">Developing adaptive models for changing volatility environments</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-premium mt-12">
+                <h3 class="mb-4">Next Iterations</h3>
+                <ul class="text-sm opacity-70 space-y-2">
+                    <li>→ Expand to multiple instruments (NQ, YM, GC)</li>
+                    <li>→ Implement adaptive position sizing based on volatility</li>
+                    <li>→ Add macro regime filters (VIX, yield curve)</li>
+                    <li>→ Paper trade live model to validate real-time performance</li>
+                    <li>→ Document findings in research paper format</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Resources -->
+    <section class="py-16 md:py-24">
+        <div class="container-premium">
+            <h2 class="mb-12">Related Resources</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-premium magnetic-element">
+                    <h3 class="mb-4">GitHub Repository</h3>
+                    <p class="opacity-70 mb-6">Full source code, data pipelines, and notebooks for this project.</p>
+                    <a href="https://github.com" target="_blank" class="btn-primary">View Code</a>
+                </div>
+
+                <div class="card-premium magnetic-element">
+                    <h3 class="mb-4">Research Notes</h3>
+                    <p class="opacity-70 mb-6">Detailed technical notes on methodology and findings.</p>
+                    <a href="/research" class="btn-secondary">Read Notes</a>
+                </div>
+
+                <div class="card-premium magnetic-element">
+                    <h3 class="mb-4">Back to Projects</h3>
+                    <p class="opacity-70 mb-6">See other projects and case studies.</p>
+                    <a href="/#projects" class="btn-secondary">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t" style="border-color: var(--color-border); padding-top: 2rem; padding-bottom: 2rem;">
+        <div class="container-premium text-center text-sm opacity-60">
+            <p>© 2025 Krish Arora. Research-minded engineer building ML systems and trading tools.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        function parseTradesCsv(csvText) {
+            const rows = csvText.trim().split(/\r?\n/);
+            if (rows.length < 2) return [];
+            const headers = rows[0].split(',').map((h) => h.trim().replace(/^"|"$/g, ''));
+            const dateIdx = headers.findIndex((h) => h === 'Open Date');
+            const pnlIdx = headers.findIndex((h) => h === 'Net P&L');
+            if (dateIdx === -1 || pnlIdx === -1) return [];
+
+            const points = [];
+            for (let i = 1; i < rows.length; i += 1) {
+                const cols = rows[i].split(',').map((c) => c.trim().replace(/^"|"$/g, ''));
+                const rawDate = cols[dateIdx];
+                const rawPnl = cols[pnlIdx];
+                if (!rawDate || !rawPnl) continue;
+                const pnlValue = Number(rawPnl.replace(/[$,%\s]/g, '').replace(/,/g, ''));
+                if (!Number.isFinite(pnlValue)) continue;
+                points.push({ date: rawDate, pnl: pnlValue });
+            }
+            return points;
+        }
+
+        function buildDailyCurve(points) {
+            const grouped = new Map();
+            points.forEach((point) => {
+                if (!grouped.has(point.date)) grouped.set(point.date, []);
+                grouped.get(point.date).push(point.pnl);
+            });
+            const dates = Array.from(grouped.keys()).sort();
+            let cumulative = 0;
+            return dates.map((date) => {
+                const daySum = grouped.get(date).reduce((acc, value) => acc + value, 0);
+                cumulative += daySum;
+                return {
+                    x: date,
+                    y: (cumulative / 100000) * 100
+                };
+            });
+        }
+
+        function renderEquityChart(containerId, dailyPoints) {
+            const container = document.getElementById(containerId);
+            if (!container || dailyPoints.length < 2) return;
+
+            const safePoints = dailyPoints.map((p) => ({ x: p.x, y: Number(p.y) })).filter((p) => Number.isFinite(p.y));
+            if (safePoints.length < 2) {
+                container.innerHTML = '<div class="equity-empty">Chart data unavailable.</div>';
+                return;
+            }
+
+            const width = container.clientWidth || 900;
+            const height = Math.max(container.clientHeight || 0, 320);
+            const padding = { top: 18, right: 18, bottom: 34, left: 40 };
+            const chartWidth = width - padding.left - padding.right;
+            const chartHeight = height - padding.top - padding.bottom;
+
+            const values = safePoints.map((p) => p.y);
+            const minY = Math.min(...values);
+            const maxY = Math.max(...values);
+            const rangeY = Number.isFinite(maxY - minY) ? Math.max(maxY - minY, 1) : 1;
+
+            const xAt = (i) => padding.left + (i / (safePoints.length - 1)) * chartWidth;
+            const yAt = (value) => padding.top + (1 - (value - minY) / rangeY) * chartHeight;
+
+            const linePath = safePoints
+                .map((point, i) => `${i === 0 ? 'M' : 'L'} ${xAt(i).toFixed(2)} ${yAt(point.y).toFixed(2)}`)
+                .join(' ');
+            const areaPath = `${linePath} L ${xAt(safePoints.length - 1).toFixed(2)} ${(padding.top + chartHeight).toFixed(2)} L ${xAt(0).toFixed(2)} ${(padding.top + chartHeight).toFixed(2)} Z`;
+
+            const yTicks = 5;
+            const grid = [];
+            const yLabels = [];
+            for (let i = 0; i <= yTicks; i += 1) {
+                const y = padding.top + (i / yTicks) * chartHeight;
+                const value = (maxY - (i / yTicks) * rangeY).toFixed(0);
+                grid.push(`<line x1="${padding.left}" y1="${y.toFixed(2)}" x2="${(padding.left + chartWidth).toFixed(2)}" y2="${y.toFixed(2)}" class="equity-grid-line" />`);
+                yLabels.push(`<text x="${(padding.left - 8).toFixed(2)}" y="${(y + 4).toFixed(2)}" text-anchor="end" class="equity-y-label">${value}%</text>`);
+            }
+
+            const labels = [];
+            const labelCount = 5;
+            for (let i = 0; i <= labelCount; i += 1) {
+                const idx = Math.floor((i / labelCount) * (safePoints.length - 1));
+                const x = xAt(idx);
+                labels.push(`<text x="${x.toFixed(2)}" y="${(height - 10).toFixed(2)}" text-anchor="middle" class="equity-x-label">${safePoints[idx].x}</text>`);
+            }
+
+            const finalValue = safePoints[safePoints.length - 1].y.toFixed(1);
+            const maxValue = Math.max(...values).toFixed(1);
+
+            container.innerHTML = `
+                <svg viewBox="0 0 ${width} ${height}" class="equity-svg" role="img" aria-label="Equity curve generated from CSV trade data">
+                    <defs>
+                        <clipPath id="${containerId}Clip">
+                            <rect x="0" y="0" width="${width}" height="${height}" rx="14" ry="14"></rect>
+                        </clipPath>
+                        <linearGradient id="${containerId}AreaFill" x1="0" x2="0" y1="0" y2="1">
+                            <stop offset="0%" stop-color="rgba(250, 204, 21, 0.30)" />
+                            <stop offset="100%" stop-color="rgba(250, 204, 21, 0.02)" />
+                        </linearGradient>
+                    </defs>
+                    <g clip-path="url(#${containerId}Clip)">
+                        <rect x="0" y="0" width="${width}" height="${height}" class="equity-bg" rx="14" ry="14"></rect>
+                        ${grid.join('')}
+                        ${yLabels.join('')}
+                        <path d="${areaPath}" fill="url(#${containerId}AreaFill)"></path>
+                        <path d="${linePath}" class="equity-line"></path>
+                        ${labels.join('')}
+                        <text x="${padding.left}" y="${padding.top - 4}" class="equity-title">PNL Curve</text>
+                        <text x="${(padding.left + chartWidth).toFixed(2)}" y="${padding.top - 4}" text-anchor="end" class="equity-meta">Final ${finalValue}% · Peak ${maxValue}%</text>
+                    </g>
+                </svg>
+            `;
+        }
+
+        async function initCsvCharts() {
+            try {
+                let response = await fetch('/data/trades_20260505114701.csv');
+                if (!response.ok) response = await fetch('data/trades_20260505114701.csv');
+                if (!response.ok) return;
+                const csvText = await response.text();
+                const points = parseTradesCsv(csvText);
+                const daily = buildDailyCurve(points);
+                if (daily.length < 2) return;
+                renderEquityChart('equityChartSnapshot', daily);
+            } catch (error) {
+                // Keep layout if CSV cannot load.
+            }
+        }
+
+        function updateScrollProgress() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            const progressBar = document.getElementById('scrollProgress');
+            if (progressBar) {
+                progressBar.style.width = scrollPercent + '%';
+            }
+            const nav = document.getElementById('nav');
+            if (nav) {
+                if (scrollTop > 50) {
+                    nav.classList.add('glass-effect-subtle');
+                    nav.style.borderBottom = '1px solid var(--color-border)';
+                } else {
+                    nav.classList.remove('glass-effect-subtle');
+                    nav.style.borderBottom = 'none';
+                }
+            }
+        }
+        window.addEventListener('scroll', updateScrollProgress);
+        window.addEventListener('load', () => {
+            updateScrollProgress();
+            initCsvCharts();
+        });
+    </script>
+</body>
+</html>
